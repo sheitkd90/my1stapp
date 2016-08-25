@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0937EB9-E66D-4B7F-B03E-6F9FECCC9A3C}</ProjectGuid>
+    <ProjectGuid>{E54F9CEE-0F2F-4FDF-9B3D-9F24EBDA8E21}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>my1stapp</RootNamespace>
-    <AssemblyName>my1stapp</AssemblyName>
+    <RootNamespace>Sum2numb</RootNamespace>
+    <AssemblyName>Sum2numb</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

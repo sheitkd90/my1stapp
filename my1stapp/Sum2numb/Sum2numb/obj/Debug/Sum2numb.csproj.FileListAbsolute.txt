@@ -1,0 +1,6 @@
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\bin\Debug\Sum2numb.exe.config
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\obj\Debug\Sum2numb.csprojResolveAssemblyReference.cache
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\bin\Debug\Sum2numb.exe
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\bin\Debug\Sum2numb.pdb
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\obj\Debug\Sum2numb.exe
+C:\Users\Sheila Angeles\github\my1stapp\Sum2numb\Sum2numb\obj\Debug\Sum2numb.pdb
