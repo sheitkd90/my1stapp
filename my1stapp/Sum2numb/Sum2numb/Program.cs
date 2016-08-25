@@ -11,20 +11,55 @@ namespace Sum2numb
         static void Main()
         {
             //Declaration of variables
-            int a, b;
-            
-         Console.WriteLine("\n Enter the first number: ");
-          Program:
-            a = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("\n Enter the second number: ");
-            b = Convert.ToInt32(Console.ReadLine());
+            double firstNum;
+            double secondNum;
+            string command = string.Empty;
 
-            int sum = a + b;
 
-        Console.WriteLine("\n The sum of the 2 numbers is: {0} ", sum);
-        
-        Console.WriteLine("\n To continue type the first number to exit type Quit  ");
-            string quit = System.Console.ReadLine();
+            Console.WriteLine("Thank you for using this simple calculator!");
+            Console.WriteLine("In order to continue, enter a command:");
+            Console.WriteLine("Add");
+            Console.WriteLine("Subtract");
+            Console.WriteLine("Divide");
+            Console.WriteLine("Multiply");
+            Console.WriteLine("Quit");
+
+            command = Console.ReadLine();
+
+            while (command != "Quit")
+            {
+                Console.WriteLine("Please enter the first number:");
+                firstNum = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Please enter the second number:");
+                secondNum = Convert.ToDouble(Console.ReadLine());
+
+                switch (command)
+                {
+                    case "Add":
+                        Console.WriteLine($"{firstNum} + {secondNum} = {firstNum + secondNum}");
+                        break;
+                    case "Subtract":
+
+                        break;
+                    case "Divide":
+
+                        break;
+                    case "Multiply":
+
+                        break;
+                    default:
+
+                        break;
+                }
+                Console.WriteLine("In order to continue, enter a command:");
+                Console.WriteLine("Add");
+                Console.WriteLine("Subtract");
+                Console.WriteLine("Divide");
+                Console.WriteLine("Multiply");
+                Console.WriteLine("Quit");
+                command = Console.ReadLine();
+            }
+            Console.WriteLine("Thank you for using this simple calculator!");
         }
     }
 }
